@@ -1,0 +1,472 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="1520232840" file="F:\Studia\pythonProject\line_seg_matlab\V2\LineExtraction2\ExtractLines.prj" location="F:\Studia\pythonProject\line_seg_matlab\V2\LineExtraction2" name="ExtractLines" preferred-package-location="F:\Studia\pythonProject\line_seg_matlab\V2\LineExtraction2\ExtractLines\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.library" target-name="Library Compiler">
+    <param.appname>ExtractLines</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\ExtractLines\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes>You must have Python 2.7, 3.6, 3.7, and/or 3.8 on your machine to install this package. Go to the directory containing your package and the file setup.py and execute:
+
+        python setup.py install [options]
+
+For details, see GettingStarted.html, distributed with this package, or the official Python documentation at:
+
+        https://docs.python.org/2/install/index.html</param.target.install.notes>
+    <param.intermediate>${PROJECT_ROOT}\ExtractLines\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\ExtractLines\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\ExtractLines\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\ExtractLines</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.python.module</param.target.type>
+    <param.support.packages />
+    <param.namespace />
+    <param.classorg />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.user.only.registration>false</param.user.only.registration>
+    <param.assembly.type>false</param.assembly.type>
+    <param.encryption.key.file />
+    <param.net.enable.remoting>false</param.net.enable.remoting>
+    <param.net.tsa.enable>false</param.net.tsa.enable>
+    <param.net.tsa.assembly />
+    <param.net.tsa.interface />
+    <param.net.tsa.namespace />
+    <param.net.tsa.superclass>Class1</param.net.tsa.superclass>
+    <param.net.tsa.metadata />
+    <param.net.tsa.metadata.assembly>${MATLAB_ROOT}</param.net.tsa.metadata.assembly>
+    <param.net.saved.interface />
+    <param.cpp.api>option.cpp.all</param.cpp.api>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.support.packages />
+      <param.namespace />
+      <param.classorg />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.user.only.registration />
+      <param.assembly.type />
+      <param.encryption.key.file />
+      <param.net.enable.remoting />
+      <param.net.tsa.enable />
+      <param.net.tsa.assembly />
+      <param.net.tsa.interface />
+      <param.net.tsa.namespace />
+      <param.net.tsa.superclass />
+      <param.net.tsa.metadata />
+      <param.net.tsa.metadata.assembly />
+      <param.net.saved.interface />
+      <param.cpp.api />
+    </unset>
+    <fileset.exports>
+      <file>${PROJECT_ROOT}\anigauss\anigauss.mexw64</file>
+      <file>${PROJECT_ROOT}\anigauss\anigauss_mex.mexw32</file>
+      <file>${PROJECT_ROOT}\anigauss\anigauss_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\Binarization\Itay\matlab\binarization.m</file>
+      <file>${PROJECT_ROOT}\Binarization\Itay\matlab\edgeCountConnectivity.m</file>
+      <file>${PROJECT_ROOT}\Binarization\Itay\matlab\getAdaptiveScale.m</file>
+      <file>${PROJECT_ROOT}\Binarization\Itay\matlab\getNarrowPixels.m</file>
+      <file>${PROJECT_ROOT}\Binarization\Itay\matlab\lContrast.m</file>
+      <file>${PROJECT_ROOT}\Binarization\Itay\matlab\localized_Bin_Adaptive_Rad.m</file>
+      <file>${PROJECT_ROOT}\Binarization\Itay\matlab\localMin_Max_Bin.m</file>
+      <file>${PROJECT_ROOT}\Binarization\Itay\matlab\postProcessing_Stroke.m</file>
+      <file>${PROJECT_ROOT}\Binarization\Itay\matlab\sw_Length.m</file>
+      <file>${PROJECT_ROOT}\Code\applyFilters.m</file>
+      <file>${PROJECT_ROOT}\Code\approximateUsingPiecewiseLinear.m</file>
+      <file>${PROJECT_ROOT}\Code\BuildTreeLayer.m</file>
+      <file>${PROJECT_ROOT}\Code\computeLinesDC.m</file>
+      <file>${PROJECT_ROOT}\Code\computeLinesLabelCost.m</file>
+      <file>${PROJECT_ROOT}\Code\computeNsSystem.m</file>
+      <file>${PROJECT_ROOT}\Code\estimateBinaryHeight.m</file>
+      <file>${PROJECT_ROOT}\Code\estimateCharsHeight.m</file>
+      <file>${PROJECT_ROOT}\Code\extractCentroids.m</file>
+      <file>${PROJECT_ROOT}\Code\filterDocument.m</file>
+      <file>${PROJECT_ROOT}\Code\getCCfeatures.m</file>
+      <file>${PROJECT_ROOT}\Code\JoinSegments.m</file>
+      <file>${PROJECT_ROOT}\Code\LineExtraction_GC_MRFminimization.m</file>
+      <file>${PROJECT_ROOT}\Code\LinesExtraction.m</file>
+      <file>${PROJECT_ROOT}\Code\my_sw_Length.m</file>
+      <file>${PROJECT_ROOT}\Code\overlappingComponents.m</file>
+      <file>${PROJECT_ROOT}\Code\permuteLabels.m</file>
+      <file>${PROJECT_ROOT}\Code\PostProcessByMRF.m</file>
+      <file>${PROJECT_ROOT}\Code\RefineBinaryOverlappingComponents.m</file>
+      <file>${PROJECT_ROOT}\Code\SaveResults2Files.m</file>
+      <file>${PROJECT_ROOT}\ExtractLines.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\bin\gco_matlab.mexw64</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_BuildLib.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_ComputeEnergy.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_Create.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_Delete.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_ExpandOnAlpha.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_Expansion.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_GetLabeling.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_ListHandles.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_LoadLib.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetDataCost.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetLabelCost.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetLabeling.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetLabelOrder.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetNeighbors.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetSmoothCost.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetVerbosity.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_Swap.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_UnitTest.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\all_shortest_paths.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\astar_search.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\bellman_ford_sp.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\betweenness_centrality.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\bfs.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\biconnected_components.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\boyer_myrvold_planarity_test.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\breadth_first_search.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\chrobak_payne_straight_line_drawing.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\circle_graph_layout.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\clique_graph.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\clustering_coefficients.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\combine_visitors.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\components.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\core_numbers.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\cycle_graph.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\dag_sp.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\depth_first_search.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\dfs.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\dijkstra_sp.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\edge_weight_index.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\edge_weight_vector.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\edmonds_maximum_cardinality_matching.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\edmunds_karp_max_flow.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\erdos_reyni.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\floyd_warshall_all_sp.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\fruchterman_reingold_force_directed_layout.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\grid_graph.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\gursoy_atun_layout.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\indexed_sparse.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\is_kuratowski_graph.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\is_straight_line_drawing.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\johnson_all_sp.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\kamada_kawai_spring_layout.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\kolmogorov_max_flow.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\kruskal_mst.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\kuratowski_subgraph.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\lengauer_tarjan_dominator_tree.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\make_biconnected_planar.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\make_connected.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\make_maximal_planar.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\matching.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\max_flow.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\maximal_matching.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\mst.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\num_edges.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\num_vertices.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\path_from_pred.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\planar_canonical_ordering.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\prim_mst.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\push_relabel_max_flow.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\random_graph_layout.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\set_matlab_bgl_default.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\shortest_paths.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\star_graph.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\test_dag.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\test_matching.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\test_planar_graph.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\topological_order.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\tree_from_pred.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\wheel_graph.m</file>
+      <file>${PROJECT_ROOT}\Multi_Skew_Code\approximateUsingPiecewiseLinearPCA.m</file>
+      <file>${PROJECT_ROOT}\Multi_Skew_Code\estimateLocalOrientations.m</file>
+      <file>${PROJECT_ROOT}\Multi_Skew_Code\hysthresh.m</file>
+      <file>${PROJECT_ROOT}\Multi_Skew_Code\JoinSegmentsSkew.m</file>
+      <file>${PROJECT_ROOT}\Multi_Skew_Code\labelBrokenLines.m</file>
+      <file>${PROJECT_ROOT}\Multi_Skew_Code\MS_computeLinesLabelCost.m</file>
+      <file>${PROJECT_ROOT}\Multi_Skew_Code\MS_filterDocument.m</file>
+      <file>${PROJECT_ROOT}\Multi_Skew_Code\MS_linesExtraction.m</file>
+      <file>${PROJECT_ROOT}\Multi_Skew_Code\MS_PostProcessByMRF.m</file>
+      <file>${PROJECT_ROOT}\Multi_Skew_Code\NiblackPreProcess.m</file>
+      <file>${PROJECT_ROOT}\Multi_Skew_Code\splitLines.m</file>
+      <file>${PROJECT_ROOT}\multiSkewLinesExtraction.m</file>
+      <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\cleanPageMargins.m</file>
+      <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\CombinePMatrices.m</file>
+      <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\CompactTextLines.m</file>
+      <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\evalLD_SaintGallOrParzival.m</file>
+      <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\Hungarian.m</file>
+      <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\imstack2vectors.m</file>
+      <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\postProcessByRect.m</file>
+      <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\postProcessByRectHelper.m</file>
+      <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\PostProcessParzival.m</file>
+      <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\preProcessSaintGall.m</file>
+      <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\RectAC.m</file>
+      <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\ver_sw_Length.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\hermite2slm.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\plotslm.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\slm2pp.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\slmengine.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\slmeval.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\slmfit.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\slmpar.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\slmset.m</file>
+    </fileset.exports>
+    <fileset.classes>
+      <entity.package name="">
+        <entity.class name="Class1">
+          <file>${PROJECT_ROOT}\matlab_bgl\all_shortest_paths.m</file>
+          <file>${PROJECT_ROOT}\anigauss\anigauss.mexw64</file>
+          <file>${PROJECT_ROOT}\anigauss\anigauss_mex.mexw32</file>
+          <file>${PROJECT_ROOT}\Code\applyFilters.m</file>
+          <file>${PROJECT_ROOT}\Code\approximateUsingPiecewiseLinear.m</file>
+          <file>${PROJECT_ROOT}\Multi_Skew_Code\approximateUsingPiecewiseLinearPCA.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\astar_search.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\bellman_ford_sp.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\betweenness_centrality.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\bfs.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\biconnected_components.m</file>
+          <file>${PROJECT_ROOT}\Binarization\Itay\matlab\binarization.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\boyer_myrvold_planarity_test.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\breadth_first_search.m</file>
+          <file>${PROJECT_ROOT}\Code\BuildTreeLayer.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\chrobak_payne_straight_line_drawing.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\circle_graph_layout.m</file>
+          <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\cleanPageMargins.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\clique_graph.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\clustering_coefficients.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\combine_visitors.m</file>
+          <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\CombinePMatrices.m</file>
+          <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\CompactTextLines.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\components.m</file>
+          <file>${PROJECT_ROOT}\Code\computeLinesDC.m</file>
+          <file>${PROJECT_ROOT}\Code\computeLinesLabelCost.m</file>
+          <file>${PROJECT_ROOT}\Code\computeNsSystem.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\core_numbers.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\cycle_graph.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\dag_sp.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\depth_first_search.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\dfs.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\dijkstra_sp.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\edge_weight_index.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\edge_weight_vector.m</file>
+          <file>${PROJECT_ROOT}\Binarization\Itay\matlab\edgeCountConnectivity.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\edmonds_maximum_cardinality_matching.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\edmunds_karp_max_flow.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\erdos_reyni.m</file>
+          <file>${PROJECT_ROOT}\Code\estimateBinaryHeight.m</file>
+          <file>${PROJECT_ROOT}\Code\estimateCharsHeight.m</file>
+          <file>${PROJECT_ROOT}\Multi_Skew_Code\estimateLocalOrientations.m</file>
+          <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\evalLD_SaintGallOrParzival.m</file>
+          <file>${PROJECT_ROOT}\Code\extractCentroids.m</file>
+          <file>${PROJECT_ROOT}\ExtractLines.m</file>
+          <file>${PROJECT_ROOT}\Code\filterDocument.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\floyd_warshall_all_sp.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\fruchterman_reingold_force_directed_layout.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_BuildLib.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_ComputeEnergy.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_Create.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_Delete.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_ExpandOnAlpha.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_Expansion.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_GetLabeling.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_ListHandles.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_LoadLib.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\bin\gco_matlab.mexw64</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetDataCost.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetLabelCost.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetLabeling.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetLabelOrder.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetNeighbors.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetSmoothCost.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetVerbosity.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_Swap.m</file>
+          <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_UnitTest.m</file>
+          <file>${PROJECT_ROOT}\Binarization\Itay\matlab\getAdaptiveScale.m</file>
+          <file>${PROJECT_ROOT}\Code\getCCfeatures.m</file>
+          <file>${PROJECT_ROOT}\Binarization\Itay\matlab\getNarrowPixels.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\grid_graph.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\gursoy_atun_layout.m</file>
+          <file>${PROJECT_ROOT}\SLMtools\hermite2slm.m</file>
+          <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\Hungarian.m</file>
+          <file>${PROJECT_ROOT}\Multi_Skew_Code\hysthresh.m</file>
+          <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\imstack2vectors.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\indexed_sparse.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\is_kuratowski_graph.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\is_straight_line_drawing.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\johnson_all_sp.m</file>
+          <file>${PROJECT_ROOT}\Code\JoinSegments.m</file>
+          <file>${PROJECT_ROOT}\Multi_Skew_Code\JoinSegmentsSkew.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\kamada_kawai_spring_layout.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\kolmogorov_max_flow.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\kruskal_mst.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\kuratowski_subgraph.m</file>
+          <file>${PROJECT_ROOT}\Multi_Skew_Code\labelBrokenLines.m</file>
+          <file>${PROJECT_ROOT}\Binarization\Itay\matlab\lContrast.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\lengauer_tarjan_dominator_tree.m</file>
+          <file>${PROJECT_ROOT}\Code\LineExtraction_GC_MRFminimization.m</file>
+          <file>${PROJECT_ROOT}\Code\LinesExtraction.m</file>
+          <file>${PROJECT_ROOT}\Binarization\Itay\matlab\localized_Bin_Adaptive_Rad.m</file>
+          <file>${PROJECT_ROOT}\Binarization\Itay\matlab\localMin_Max_Bin.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\make_biconnected_planar.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\make_connected.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\make_maximal_planar.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\matching.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\max_flow.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\maximal_matching.m</file>
+          <file>${PROJECT_ROOT}\Multi_Skew_Code\MS_computeLinesLabelCost.m</file>
+          <file>${PROJECT_ROOT}\Multi_Skew_Code\MS_filterDocument.m</file>
+          <file>${PROJECT_ROOT}\Multi_Skew_Code\MS_linesExtraction.m</file>
+          <file>${PROJECT_ROOT}\Multi_Skew_Code\MS_PostProcessByMRF.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\mst.m</file>
+          <file>${PROJECT_ROOT}\multiSkewLinesExtraction.m</file>
+          <file>${PROJECT_ROOT}\Code\my_sw_Length.m</file>
+          <file>${PROJECT_ROOT}\Multi_Skew_Code\NiblackPreProcess.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\num_edges.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\num_vertices.m</file>
+          <file>${PROJECT_ROOT}\Code\overlappingComponents.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\path_from_pred.m</file>
+          <file>${PROJECT_ROOT}\Code\permuteLabels.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\planar_canonical_ordering.m</file>
+          <file>${PROJECT_ROOT}\SLMtools\plotslm.m</file>
+          <file>${PROJECT_ROOT}\Code\PostProcessByMRF.m</file>
+          <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\postProcessByRect.m</file>
+          <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\postProcessByRectHelper.m</file>
+          <file>${PROJECT_ROOT}\Binarization\Itay\matlab\postProcessing_Stroke.m</file>
+          <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\PostProcessParzival.m</file>
+          <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\preProcessSaintGall.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\prim_mst.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\push_relabel_max_flow.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\random_graph_layout.m</file>
+          <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\RectAC.m</file>
+          <file>${PROJECT_ROOT}\Code\RefineBinaryOverlappingComponents.m</file>
+          <file>${PROJECT_ROOT}\Code\SaveResults2Files.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\set_matlab_bgl_default.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\shortest_paths.m</file>
+          <file>${PROJECT_ROOT}\SLMtools\slm2pp.m</file>
+          <file>${PROJECT_ROOT}\SLMtools\slmengine.m</file>
+          <file>${PROJECT_ROOT}\SLMtools\slmeval.m</file>
+          <file>${PROJECT_ROOT}\SLMtools\slmfit.m</file>
+          <file>${PROJECT_ROOT}\SLMtools\slmpar.m</file>
+          <file>${PROJECT_ROOT}\SLMtools\slmset.m</file>
+          <file>${PROJECT_ROOT}\Multi_Skew_Code\splitLines.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\star_graph.m</file>
+          <file>${PROJECT_ROOT}\Binarization\Itay\matlab\sw_Length.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\test_dag.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\test_matching.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\test_planar_graph.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\topological_order.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\tree_from_pred.m</file>
+          <file>${PROJECT_ROOT}\Parzival_SaintGall_BGU_CODE\ver_sw_Length.m</file>
+          <file>${PROJECT_ROOT}\matlab_bgl\wheel_graph.m</file>
+        </entity.class>
+      </entity.package>
+    </fileset.classes>
+    <fileset.resources />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\anigauss\anigauss.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\astar_search_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\betweenness_centrality_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\bfs_dfs_vis_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\bfs_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\biconnected_components_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\check_matlab_bgl.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\clustering_coefficients_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\components_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\core_numbers_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\dfs_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\dominator_tree_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\fruchterman_reingold_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\get_matlab_bgl_options.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\gursoy_atun_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\kamada_kawai_spring_layout_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\matching_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\matlab_bgl_all_sp_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\matlab_bgl_sp_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\max_flow_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\merge_options.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\merge_structs.m</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\mst_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\path_from_pred_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\planar_drawing_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\planar_edges_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\planar_test_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\test_matching_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\matlab_bgl\private\topological_order_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\SLMtools\private\lse.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\private\parse_pv_pairs.m</file>
+    </fileset.depfun>
+    <fileset.package />
+    <fileset.examples>
+      <file>${PROJECT_ROOT}\TEST_1.m</file>
+    </fileset.examples>
+    <fileset.documentation />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\ExtractLines\for_testing" name="setup.py" optional="false">F:\Studia\pythonProject\line_seg_matlab\V2\LineExtraction2\ExtractLines\for_testing\setup.py</file>
+      <file location="${PROJECT_ROOT}\ExtractLines\for_testing" name="ExtractLines" optional="false">F:\Studia\pythonProject\line_seg_matlab\V2\LineExtraction2\ExtractLines\for_testing\ExtractLines</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>F:\Matlab</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

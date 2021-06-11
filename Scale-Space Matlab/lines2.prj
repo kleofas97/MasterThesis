@@ -1,0 +1,192 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3928168581" file="F:\Studia\pythonProject\line_seg_matlab\V2\LineExtraction2\lines2.prj" location="F:\Studia\pythonProject\line_seg_matlab\V2\LineExtraction2" name="lines2" preferred-package-location="F:\Studia\pythonProject\line_seg_matlab\V2\LineExtraction2\lines2\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.library" target-name="Library Compiler">
+    <param.appname>Extract_liness</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\Extract_liness\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes>You must have Python 2.7, 3.6, 3.7, and/or 3.8 on your machine to install this package. Go to the directory containing your package and the file setup.py and execute:
+
+        python setup.py install [options]
+
+For details, see GettingStarted.html, distributed with this package, or the official Python documentation at:
+
+        https://docs.python.org/2/install/index.html</param.target.install.notes>
+    <param.intermediate>${PROJECT_ROOT}\lines2\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\lines2\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\lines2\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\lines2</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.python.module</param.target.type>
+    <param.support.packages />
+    <param.namespace />
+    <param.classorg />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.user.only.registration>false</param.user.only.registration>
+    <param.assembly.type>false</param.assembly.type>
+    <param.encryption.key.file />
+    <param.net.enable.remoting>false</param.net.enable.remoting>
+    <param.net.tsa.enable>false</param.net.tsa.enable>
+    <param.net.tsa.assembly />
+    <param.net.tsa.interface />
+    <param.net.tsa.namespace />
+    <param.net.tsa.superclass>Class1</param.net.tsa.superclass>
+    <param.net.tsa.metadata />
+    <param.net.tsa.metadata.assembly>${MATLAB_ROOT}</param.net.tsa.metadata.assembly>
+    <param.net.saved.interface />
+    <param.cpp.api>option.cpp.all</param.cpp.api>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.support.packages />
+      <param.namespace />
+      <param.classorg />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.user.only.registration />
+      <param.assembly.type />
+      <param.encryption.key.file />
+      <param.net.enable.remoting />
+      <param.net.tsa.enable />
+      <param.net.tsa.assembly />
+      <param.net.tsa.interface />
+      <param.net.tsa.namespace />
+      <param.net.tsa.superclass />
+      <param.net.tsa.metadata />
+      <param.net.tsa.metadata.assembly />
+      <param.net.saved.interface />
+      <param.cpp.api />
+    </unset>
+    <fileset.exports>
+      <file>${PROJECT_ROOT}\ExtractLines.m</file>
+    </fileset.exports>
+    <fileset.classes>
+      <entity.package name="">
+        <entity.class name="Class1">
+          <file>${PROJECT_ROOT}\ExtractLines.m</file>
+        </entity.class>
+      </entity.package>
+    </fileset.classes>
+    <fileset.resources />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\anigauss\anigauss.m</file>
+      <file>${PROJECT_ROOT}\anigauss\anigauss.mexw64</file>
+      <file>${PROJECT_ROOT}\Code\applyFilters.m</file>
+      <file>${PROJECT_ROOT}\Code\approximateUsingPiecewiseLinear.m</file>
+      <file>${PROJECT_ROOT}\Code\BuildTreeLayer.m</file>
+      <file>${PROJECT_ROOT}\Code\computeLinesDC.m</file>
+      <file>${PROJECT_ROOT}\Code\computeLinesLabelCost.m</file>
+      <file>${PROJECT_ROOT}\Code\computeNsSystem.m</file>
+      <file>${PROJECT_ROOT}\Code\estimateBinaryHeight.m</file>
+      <file>${PROJECT_ROOT}\Code\estimateCharsHeight.m</file>
+      <file>${PROJECT_ROOT}\Code\extractCentroids.m</file>
+      <file>${PROJECT_ROOT}\Code\filterDocument.m</file>
+      <file>${PROJECT_ROOT}\Code\JoinSegments.m</file>
+      <file>${PROJECT_ROOT}\Code\LineExtraction_GC_MRFminimization.m</file>
+      <file>${PROJECT_ROOT}\Code\LinesExtraction.m</file>
+      <file>${PROJECT_ROOT}\Code\my_sw_Length.m</file>
+      <file>${PROJECT_ROOT}\Code\permuteLabels.m</file>
+      <file>${PROJECT_ROOT}\Code\PostProcessByMRF.m</file>
+      <file>${PROJECT_ROOT}\Code\RefineBinaryOverlappingComponents.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\bin\gco_matlab.mexw64</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_BuildLib.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_Create.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_Delete.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_Expansion.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_GetLabeling.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_LoadLib.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetDataCost.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetLabelCost.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetNeighbors.m</file>
+      <file>${PROJECT_ROOT}\gco-v3.0\matlab\GCO_SetSmoothCost.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\hermite2slm.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\plotslm.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\private\lse.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\private\parse_pv_pairs.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\slm2pp.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\slmengine.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\slmeval.m</file>
+      <file>${PROJECT_ROOT}\SLMtools\slmset.m</file>
+    </fileset.depfun>
+    <fileset.package />
+    <fileset.examples>
+      <file>${PROJECT_ROOT}\TEST_1.m</file>
+    </fileset.examples>
+    <fileset.documentation />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\lines2\for_testing" name="setup.py" optional="false">F:\Studia\pythonProject\line_seg_matlab\V2\LineExtraction2\lines2\for_testing\setup.py</file>
+      <file location="${PROJECT_ROOT}\lines2\for_testing" name="Extract_liness" optional="false">F:\Studia\pythonProject\line_seg_matlab\V2\LineExtraction2\lines2\for_testing\Extract_liness</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>F:\Matlab</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

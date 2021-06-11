@@ -55,7 +55,7 @@ def parse_args() -> Arguments:
     parser.add_argument('--test_img_path', dest='test_img_path',
                         help='path to test image (train == false needed)', type=str,
                         required=False,
-                        default=os.path.join(os.getcwd(),'test_folder'))
+                        default=os.path.join(os.getcwd(), 'test_folder'))
     parser.add_argument('--path_to_model', dest='path_to_model', type=str,
                         help='path to model to be loaded (only if continue_from_best is true',
                         required=False,

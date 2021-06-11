@@ -2,3 +2,5 @@
 /SiameseNetworks/data/data_split/
 /SiameseNetworks/data/cutted_pages/
 /SiameseNetworks/data/data_prepared/
+/CNN_RNN_CTC/data/img/
+/CNN_RNN_CTC/data/gt/lines.txt
