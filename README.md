@@ -56,7 +56,7 @@ Bad Segmentation:
 
 Text recognition example:
 
-![htr](./test_visualization/ExmapleOfLineText recognition.png)
+![htr](test_visualization/ExmapleOfLineTextrecognition.png)
 
 both line segmentation and text recognition (found text put under every line):
 
