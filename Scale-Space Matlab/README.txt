@@ -34,17 +34,6 @@ The code was tested on MATLAB 2013 using windows 8.1 and windows 7.
 Using this software in any academic work you must cite the following work in any resulting publication:
 Rafi Cohen, Itshak Dinstein, Jihad El-Sana, Klara Kedem. "Using Scale-Space Anisotropic Smoothing for Text Line Extraction in Historical Documents", ICIAR 2014
 
-
-A. Included packages:
----------------------
-1. Multi-label graph cut minimization
-Delong, A., Osokin, A., Isack, H.N., Boykov, Y.: Fast approximate energy minimization with label costs. IJCV 96(1), 1{27 (2012)
-2. Bar-Yosef's Binarization algorithm
-H-DIBCO 2010 – Handwritten Document Image Binarization Competition
-3. Fast anisotropic gauss filtering
-J.-M. Geusebroek, A. W. Smeulders, and J. Van De Weijer. Fast anisotropic gauss ﬁltering. IEEE Transactions on Image Processing, 12(8):938–943, 2003.
-4. Evolution maps for connected componenets in text documents, Ofer Biller, Klara Kedem, Itshak Dinstein and Jihad El-Sana, ICFHR’2012, pp. 405-410.
-
 ------------------------------------------
 
 B. Resources:
