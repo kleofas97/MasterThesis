@@ -20,13 +20,13 @@ There were two CNN + RNN + CTC architectures implemented:
 * SimpleHTR based on: https://github.com/githubharald/SimpleHTR/
 * Gated CNN, based on: http://www.tbluche.com/files/icdar17_gnn.pdf
 
-After testing, in final version, Scale Space in Matlab and SimpleHTR is used. The pipeline is presented below:
+After testing, in the final version, Scale Space in Matlab and SimpleHTR is used. The pipeline is presented below:
 
 ![htr](./test_visualization/alg_all_eng.png)
 # Siamese Networks
 
 The Siamese Neural networks can be found in the **SiameseNetworks** folder. The idea is the same as in the paper. Main difference is in the data. We use IAM Dataset for the whole project. This part is using the whole pages version of IAM Dataset, which can be downloaded here: https://fki.tic.heia-fr.ch/databases/iam-handwriting-database
-All the pictures needs to be pasted to this folder: **PracaMagisterka/SiameseNetworks/data/IAM**. The repo contains of sample files.
+All the pictures needs to be pasted to this folder: **PracaMagisterka/SiameseNetworks/data/IAM**. The repo contains sample files.
 
 Then, please run the preprocessing/cut_images.py script to crop the pictures only to lines of handwritten text. It will be automatically stored appropriately. After that, run the split_dataset.py script from the same directory. After that you can start the model training with **PracaMagisterka/SiameseNetworks/main.py**. Please see Arguments.py for parameters.
 
@@ -34,7 +34,7 @@ The results with IAM dataset were not satisfactory. The netowrk did not learn an
 
 # Scale Space with anizotropic Gauss filters
 
-The second idea of line segmentation was concentrated on conventional methods. The program, written in Matlab, segment the images without learning. The Matlab program on computer is mandatory to run this program. Pls see the Scale-Space directory for details.
+The second idea of line segmentation was concentrated on conventional methods. The program, written in Matlab, segments the images without learning. The Matlab program on the computer is mandatory to run this program. Pls see the Scale-Space directory for details.
 
 # CNN + RNN + CTC architecture for reading handwritten text
 
@@ -47,8 +47,9 @@ The Gated version was tested on google colab, with dataset provided from my priv
 In the paper the final outcome consist of a pipeline with Scale-Space segmentation module and Handwritten text recognition module connected together.
 The connection is made with **main.py** file in the main directory. To run this there needs to be a model prepared for CNN_RNN_CTC architecture. 
 
-The Scale-Space program has 100% accuracy in segmenetation of IAM Database images. It was also used for historical documents from XIX and XVIII century, where it's results were pooper, respecivelty around 60 and 30 %. 
-The SimpleHTR read lines delievered from Scale-Space program with accuracy around 85%, calucalted with Character Error Rate method (Levenshtein distance).
+The Scale-Space program has 100% accuracy in segmentation of IAM Database images. It was also used for historical documents from XIX and XVIII century, where it's results were poorer, respectively around 60 and 30 %. 
+The SimpleHTR read lines delivered from Scale-Space program with accuracy around 85%, calculated with Character Error Rate method (Levenshtein distance).
+
 
 Below there are output pictures attached:
 
