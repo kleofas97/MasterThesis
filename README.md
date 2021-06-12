@@ -1,7 +1,7 @@
 # Master Thesis 
-Title: Master thesis - Handwriting recognition for document archiving automation
-University: AGH/UST Cracow, Poland
-Author: Adam Mika
+Title: Master thesis - Handwriting recognition for document archiving automation  
+University: AGH/UST Cracow, Poland  
+Author: Adam Mika  
 
 ![htr](./test_visualization/header.png)
 
@@ -69,12 +69,12 @@ If You found it interesting and have any additional questions, please contact di
 
 
 References:
-Rafi Cohen, Itshak Dinstein, Jihad El-Sana, Klara Kedem. "Using Scale-Space Anisotropic Smoothing for Text Line Extraction in Historical Documents", ICIAR 2014
-https://github.com/githubharald/SimpleHTR
-http://www.tbluche.com/publis.html
-http://www.tbluche.com/files/icdar17_gnn.pdf
-https://keras.io/examples/vision/captcha_ocr/
-https://parashift.io/en/handwritten-text-recognition-in-2020/
-https://www.cs.bgu.ac.il/~berat/papers/mdpi2020Learningfree.pdf
-https://www.cs.bgu.ac.il/~berat/papers/icpr2020_unsupervised_deep_learning_for_text_line_segmentation.pdf
+* Rafi Cohen, Itshak Dinstein, Jihad El-Sana, Klara Kedem. "Using Scale-Space Anisotropic Smoothing for Text Line Extraction in Historical Documents", ICIAR 2014
+* https://github.com/githubharald/SimpleHTR
+* http://www.tbluche.com/publis.html
+* http://www.tbluche.com/files/icdar17_gnn.pdf
+* https://keras.io/examples/vision/captcha_ocr/
+* https://parashift.io/en/handwritten-text-recognition-in-2020/
+* https://www.cs.bgu.ac.il/~berat/papers/mdpi2020Learningfree.pdf
+* https://www.cs.bgu.ac.il/~berat/papers/icpr2020_unsupervised_deep_learning_for_text_line_segmentation.pdf  
 and many more in the paper...
