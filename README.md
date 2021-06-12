@@ -3,6 +3,9 @@ Title: Master thesis - Handwriting recognition for document archiving automation
 University: AGH/UST Cracow, Poland
 Author: Adam Mika
 
+![htr](./test_visualization/header.png)
+
+
 Description:
 
 This repo contains code for my master thesis project. Also, it contains the paper itself (in polish).
