@@ -30,7 +30,7 @@ All the pictures needs to be pasted to this folder: **PracaMagisterka/SiameseNet
 
 Then, please run the preprocessing/cut_images.py script to crop the pictures only to lines of handwritten text. It will be automatically stored appropriately. After that, run the split_dataset.py script from the same directory. After that you can start the model training with **PracaMagisterka/SiameseNetworks/main.py**. Please see Arguments.py for parameters.
 
-The results with IAM dataset were not satisfactory. The netowrk did not learn and this approach was dropped. Perhaps with use of different dataset the result would have been different.
+The results with IAM dataset were not satisfactory. The network did not learn and this approach was dropped. Perhaps with use of different dataset the result would have been different.
 
 # Scale Space with anizotropic Gauss filters
 
