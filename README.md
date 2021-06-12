@@ -20,6 +20,9 @@ There were two CNN + RNN + CTC architectures implemented:
 * SimpleHTR based on: https://github.com/githubharald/SimpleHTR/
 * Gated CNN, based on: http://www.tbluche.com/files/icdar17_gnn.pdf
 
+After testing, in final version, Scale Space in Matlab and SimpleHTR is used. The pipeline is presented below:
+
+![htr](./test_visualization/alg_all_eng.png)
 # Siamese Networks
 
 The Siamese Neural networks can be found in the **SiameseNetworks** folder. The idea is the same as in the paper. Main difference is in the data. We use IAM Dataset for the whole project. This part is using the whole pages version of IAM Dataset, which can be downloaded here: https://fki.tic.heia-fr.ch/databases/iam-handwriting-database
