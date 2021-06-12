@@ -45,14 +45,19 @@ Below there are output pictures attached:
 
 Good Segmentation:
 
-![alt text](https://github.com/kleofas97/PracaMagisterka/test_visualization/ScaleSpaceGoodSegmentation.png?raw=true)
+![htr](./test_visualization/ScaleSpaceGoodSegmentation.png)
 
 Bad Segmentation:
 
+![htr](./test_visualization/ScaleSpaceBadSegmentation.png)
+
 Text recognition example:
+
+![htr](./test_visualization/ExmapleOfLineText recognition.png)
 
 both line segmentation and text recognition (found text put under every line):
 
+![htr](./test_visualization/outputFullProgram.png)
 
 If You found it interesting and have any additional questions, please contact directly: adam.k.mika@gmail.com
 
