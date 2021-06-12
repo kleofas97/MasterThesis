@@ -45,6 +45,8 @@ Below there are output pictures attached:
 
 Good Segmentation:
 
+![alt text](https://github.com/kleofas97/PracaMagisterka/test_visualization/ScaleSpaceGoodSegmentation.png?raw=true)
+
 Bad Segmentation:
 
 Text recognition example:
@@ -52,7 +54,7 @@ Text recognition example:
 both line segmentation and text recognition (found text put under every line):
 
 
-If You found it intresting and have any additional questions, please contact directly: adam.k.mika@gmail.com
+If You found it interesting and have any additional questions, please contact directly: adam.k.mika@gmail.com
 
 
 
