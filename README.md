@@ -7,9 +7,15 @@ Description:
 
 This repo contains code for my master thesis project. Also, it contains the paper itself (in polish).
 
-The main goal of the project was preparing an algorithm to segment and read handwritten documents. The segmentation was approached in two ways:
+The main goal of the project was preparing an algorithm to segment and read handwritten documents. 
+The segmentation was approached in two ways:
  * using Scale Space Anisotropic Gauss filters from here: https://www.mdpi.com/2076-3417/10/22/8276
  * using Siamese Neural networks from here: https://www.cs.bgu.ac.il/~berat/papers/icfhr2020_unsupervised_deep_learning_for_page_segmentation.pdf
+
+The Text recognition was also approached in two ways:
+There were two CNN + RNN + CTC architectures implemented:
+* SimpleHTR based on: https://github.com/githubharald/SimpleHTR/
+* Gated CNN, based on: http://www.tbluche.com/files/icdar17_gnn.pdf
 
 # Siamese Networks
 
@@ -26,12 +32,9 @@ The second idea of line segmentation was concentrated on conventional methods. T
 
 # CNN + RNN + CTC architecture for reading handwritten text
 
-There were two CNN + RNN + CTC architectures implemented:
-* SimpleHTR based on: https://github.com/githubharald/SimpleHTR/
-* Gated CNN, based on: http://www.tbluche.com/files/icdar17_gnn.pdf
 
-To run the SimpleHTR version, please put the **IAM lines** and groundtruth files into **CNN_RNN_CTC/data** directory. The structure can of the data file can be found here: https://github.com/githubharald/SimpleHTR/, lines can be downloaded here: https://fki.tic.heia-fr.ch/databases/iam-handwriting-database
-The Gated version was tested on google colab, with dataset provided from my private kaggle account, please see **Gated_Trials.ipynb**.
+To run the SimpleHTR (basic) version, please put the **IAM lines** and groundtruth files into **CNN_RNN_CTC/data** directory. The structure can of the data file can be found here: https://github.com/githubharald/SimpleHTR/, lines can be downloaded here: https://fki.tic.heia-fr.ch/databases/iam-handwriting-database
+The Gated version was tested on google colab, with dataset provided from my private kaggle account (the same IAM Lines as for SimpleHTR), please see **Gated_Trials.ipynb**.
 
 # Results and testing
 
